@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registrasi-Siswa</title>
+	</head>
+	<body>
+	    <h1 align=center>REGISTRASI SISWA</h1>
+	    <hr>
+		<form action="">
+		    <div align=right id="Tanggal">
+		        <label for="Tanggal">Tanggal:</label>
+		        <input type="date">
+		    </div>
+		    
+	        <fieldset>
+            <legend><h3>INFORMASI PRIBADI</h3></legend>
+            
+	        <div id="Nama Lengkap">
+	            <label for="Nama Lengkap">Nama Lengkap:</label>
+                <input type="text" placeholder="Joni Iskandar" ><br><br>
+            </div>
+            
+            <div id="Tempat Tanggal Lahir">
+                <label for="Tempat Tanggal Lahir">Tempat Tanggal Lahir:</label>
+                <input type="text">
+                <input type="date"><br><br>
+            </div>
+            
+             <div id="Agama">
+                <label for="Agama">Agama:</label>
+                <select>
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                </select><br><br>
+            </div>
+            
+             <div id="Jenis Kelamin">
+                <label for="Jenis Kelamin">Jenis Kelamin:</label>
+                <input type="radio" name="jk">
+                <label for="Laki-laki">Laki-laki</label>
+                <input type="radio" name="jk">
+                <label for="Perempuan">Perempuan</label><br><br>
+            </div>
+            
+            </fieldset>
+            
+            <fieldset>
+            <legend><h3>INFORMASI KONTAK</h3></legend>  
+            <div id="Alamat">
+                <label for="Alamat">Alamat:</label>
+                <textarea cols="50" rows="1" placeholder="Masukkan alamat"></textarea><br><br>
+            </div>
+            
+            <div>
+	            <label for="Kota">Kota:</label>
+                <input type="text" placeholder="Kota Asal">
+	            <label for="Provinsi">Provinsi:</label>
+                <input type="text"><br><br>
+            </div>
+            
+            <div>
+	            <label for="Kode Pos">Kode Pos:</label>
+                <input type="text">
+	            <label for="Negara">Negara:</label>
+                <input type="text"><br><br>
+            </div>
+            
+            <div>
+	            <label for="No. Hp">No. Hp:</label>
+                <input type="number">
+	            <label for="E-Mail">E-Mail:</label>
+                <input type="email" placeholder="contoh@gmail.com"><br><br>
+            </div>
+            
+            
+            <div id="Jenis Keanggotaan">
+                <label for="Jenis Keanggotaan">Jenis Keanggotaan:</label>
+                <input type="checkbox">
+                <label for="Reguler">Reguler</label>
+                <input type="checkbox">
+                <label for="Premium">Premium</label>
+                <input type="checkbox">
+                <label for="VIP">VIP</label><br><br>
+            </div>
+            
+            <div id="Masukkan Foto:">
+                <label for="Masukkan Foto">Masukkan Foto:</label>
+                <input type="file"><br><br>
+            </div>
+            </fieldset><br>
+            
+            
+            <div id="submit">
+                <input type="submit" value="Submit">
+            </div>
+           
+	    </form>
+	</body>
+</html>
